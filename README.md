@@ -16,20 +16,22 @@ https://www.kaggle.com/datasets/rounakbanik/the-movies-dataset
 Файлы (`movies_metadata.csv`, `ratings_small.csv`, `links_small.csv`) положить в `data/`
 
 ## Подходы
-| Подход                       | Файл                  |
-|------------------------------|-----------------------|
-| Content-based                | content_based.py      |
+| Подход                   | Файл                  |
+|--------------------------|-----------------------|
+| Content-based            | content_based.py      |
 | Коллаборативный (item-based) | collaborative.py      |
 | Коллаборативный (user-based) | collaborative_user.py |
-| Гибридный                    | hybrid.py             |
-| Эвристики                    | heuristics.py         |
-| Метрики                      | metrics.py            |
-| Анализ данных                | explore_data.py       |
-| Проверка связей              | check_links.py        |
-| Анализ проблем               | analysis.md           |
+| Гибридный                | hybrid.py             |
+| Эвристики                | heuristics.py         |
+| Метрики                  | metrics.py            |
+| Анализ данных            | explore_data.py       |
+| Проверка связей          | check_links.py        |
+| Анализ проблем           | analysis.md           |
+| Современный (LLM + RAG) | `src/recsys/llm_recsys.py` |
 
 ## Запуск
 ```bash
 pip install -r requirements.txt
 python hybrid.py
 ```
+
